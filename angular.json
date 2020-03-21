@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "agenda": {
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "agenda"
+    }
+  },
+  "defaultProject": "agenda",
+  "cli": {
+    "analytics": "0f8bdc2c-64be-4e25-9bfd-b3341c8e7d48"
+  }
 }
