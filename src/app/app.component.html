@@ -1,9 +1,11 @@
-<app-header></app-header>
+<app-header [hidden]="!showTemplate"></app-header>
 <app-menu></app-menu>
 <div class="content-header">
     <section class="content-header">
     </section>
     <section class="content">
       <p>Content Here</p>
+      <router-outlet></router-outlet>
     </section>
 </div>
+<app-footer [hidden]="!showTemplate"></app-footer>
